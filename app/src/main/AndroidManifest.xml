@@ -16,14 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Home"
+        <activity
+            android:name=".Home"
             android:label="@string/activity_one"
             android:parentActivityName=".MainActivity">
+
             <!-- Parent activity meta-data -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
+        <activity
+            android:name=".test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Library" />
+        <activity android:name=".Playlist" />
+        <activity android:name=".Favourite" />
+        <activity android:name=".NowPlaying"></activity>
     </application>
 
 </manifest>

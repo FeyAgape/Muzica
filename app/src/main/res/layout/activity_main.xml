@@ -8,12 +8,6 @@
 
     <!-- Welcome Screen -->
 
-    <RelativeLayout
-        android:id="@+id/welcome_message_layout"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:visibility="visible">
-
 
         <ImageView
             android:id="@+id/welcome_image"
@@ -23,6 +17,36 @@
             android:contentDescription="@string/content_description"
             android:scaleType="centerCrop"
             android:src="@drawable/music" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/scrim" />
+
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textSize="42sp"
+            android:text="@string/Title"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/intro"
+            style="@style/Title"
+            android:gravity="center_horizontal"
+            android:textSize="32sp"
+            android:text="@string/Intro"
+            android:textColor="@color/colorPrimary"
+            android:layout_above="@+id/welcome"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
         <!-- Welcome button -->
 
@@ -37,5 +61,3 @@
 
     </RelativeLayout>
 
-
-</RelativeLayout>
