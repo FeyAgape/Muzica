@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.muzica.MainActivity">
+
+    <!-- Welcome Screen -->
+
+    <RelativeLayout
+        android:id="@+id/welcome_message_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible">
+
+
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music" />
+
+        <!-- Welcome button -->
+
+        <Button
+            android:id="@+id/welcome"
+            style="@style/WelcomeButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/large"
+            android:elevation="12dp"
+            android:text="@string/button" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
