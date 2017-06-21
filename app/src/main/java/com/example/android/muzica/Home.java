@@ -19,14 +19,14 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-        ViewPagerAdapter adapter = new ViewPagerAdapter (getSupportFragmentManager());
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         // Add Fragments to adapter one by one
-        adapter.addFragment(new Mainscreen(),"one" );
-        adapter.addFragment(new Library(), "two");
-        adapter.addFragment(new NowPlaying(), "three" );
-        adapter.addFragment(new Playlist(), "four" );
-        adapter.addFragment(new Favourites(), "five");
+        adapter.addFragment(new Mainscreen(), getString(R.string.activity_one));
+        adapter.addFragment(new Library(), getString(R.string.activity_two));
+        adapter.addFragment(new NowPlaying(), getString(R.string.activity_three));
+        adapter.addFragment(new Playlist(), getString(R.string.activity_four));
+        adapter.addFragment(new Favourites(), getString(R.string.activity_five));
         viewPager.setAdapter(adapter);
 
 
