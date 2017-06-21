@@ -34,7 +34,7 @@
             android:padding="5dp"
             android:textSize="42sp"
             android:text="@string/Title"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
             android:textStyle="bold" />
 
         <TextView
@@ -42,8 +42,11 @@
             style="@style/Title"
             android:gravity="center_horizontal"
             android:textSize="32sp"
+            android:layout_margin="@dimen/medium"
+            android:elevation="@dimen/small"
             android:text="@string/Intro"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorText"
+            android:background="@color/colorExtra"
             android:layout_above="@+id/welcome"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
@@ -56,7 +59,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_margin="@dimen/large"
-            android:elevation="12dp"
+            android:elevation="@dimen/medium"
             android:text="@string/button" />
 
     </RelativeLayout>

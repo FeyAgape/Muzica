@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#F1F1F1"
     android:orientation="vertical"
     tools:context="com.example.android.muzica.Home">
@@ -13,75 +14,23 @@
         android:orientation="vertical">
 
 
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/xsmall"
-        android:background="#f1f1f1">
-
-        <LinearLayout
+        <android.support.design.widget.TabLayout
+            android:id="@+id/sliding_tabs"
+            style="@style/MyCustomTabLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#fff"
-            android:elevation="@dimen/mini">
+            app:tabMaxWidth="0dp"
+            app:tabGravity="fill"
+            app:tabMode="scrollable" />
 
-            <android.support.design.widget.TabLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <android.support.design.widget.TabItem
-                    android:id="@+id/home"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Home" />
-
-                <android.support.design.widget.TabItem
-                    android:id="@+id/library"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Library" />
-
-                <android.support.design.widget.TabItem
-                    android:id="@+id/playing"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Now Playing" />
-
-                <android.support.design.widget.TabItem
-                    android:id="@+id/playlist"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Playlist" />
-
-                <android.support.design.widget.TabItem
-                    android:id="@+id/favourites"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Favourites" />
-            </android.support.design.widget.TabLayout>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:background="@android:color/white" />
 
         </LinearLayout>
-    </HorizontalScrollView>
 
 
-
-    <LinearLayout
-        style="@style/LinearLayout"
-        android:layout_marginTop="100dp"
-        android:elevation="@dimen/mini">
-
-    </LinearLayout>
-
-    <LinearLayout
-        style="@style/LinearLayout"
-        android:elevation="@dimen/mini" >
-
-    </LinearLayout>
-
-    <LinearLayout
-        style="@style/LinearLayout"
-        android:elevation="@dimen/mini" >
-
-    </LinearLayout>
-    </LinearLayout>
 </ScrollView>

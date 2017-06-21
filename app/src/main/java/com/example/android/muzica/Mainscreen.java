@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Playlist extends Fragment {
+public class Mainscreen extends Fragment {
 
-    public Playlist() {
+    public Mainscreen() {
         // Required empty public constructor
     }
 
@@ -22,7 +22,7 @@ public class Playlist extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.activity_playlist, container, false);
+        return inflater.inflate(R.layout.activity_mainscreen, container, false);
     }
 
 }

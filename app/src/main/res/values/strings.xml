@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Muzica</string>
-    <string name="activity_one">Home</string>
-    <string name="activity_two">Library</string>
-    <string name="activity_three">Now Playing</string>
-    <string name="activity_four">Playlist</string>
-    <string name="activity_five">Favourites</string>
+    <string name="tab_one">Home</string>
+    <string name="tab_two">Library</string>
+    <string name="tab_three">Now Playing</string>
+    <string name="tab_four">Playlist</string>
+    <string name="tab_five">Favourites</string>
     <string name="content_description">image</string>
     <string name="Title">Muzica</string>
     <string name="Intro">The app for the music you love</string>
