@@ -4,7 +4,7 @@
     <string name="activity_one">Sign-in</string>
     <string name="activity_two">Library</string>
     <string name="activity_three">Now Playing</string>
-    <string name="activity_four">Playlist</string>
+    <string name="activity_four">Playlists</string>
     <string name="activity_five">Favourites</string>
     <string name="content_description">image</string>
     <string name="Title">Muzica</string>
@@ -13,8 +13,10 @@
     <string name="playlist">Playlist Name</string>
     <string name="playlist1">Recently added</string>
     <string name="playlist2">Recently Played</string>
-    <string name="playlist3">Most Played Played</string>
-    <string name="Number">Numbers of tracks</string>
+    <string name="playlist3">Most Played</string>
+    <string name="Number">Tracks Number</string>
     <string name="song">Artist - Song Title</string>
     <string name="album_name">Album Name</string>
+    <string name="music1">Create Playlist</string>
+    <string name="music2">Shuffle Tracks</string>
 </resources>

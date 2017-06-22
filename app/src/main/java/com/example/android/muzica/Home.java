@@ -22,8 +22,8 @@ public class Home extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         // Add Fragments to adapter one by one
-        adapter.addFragment(new Library(), getString(R.string.activity_two));
         adapter.addFragment(new NowPlaying(), getString(R.string.activity_three));
+        adapter.addFragment(new Library(), getString(R.string.activity_two));
         adapter.addFragment(new Playlist(), getString(R.string.activity_four));
         adapter.addFragment(new Favourites(), getString(R.string.activity_five));
         viewPager.setAdapter(adapter);

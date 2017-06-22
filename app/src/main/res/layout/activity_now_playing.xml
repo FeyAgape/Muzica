@@ -30,9 +30,7 @@
             android:id="@+id/linearLayout1">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/small"
+
                 style="@style/Title_Pages"
                 android:background="@color/colorScrim"
                 android:layout_marginTop="@dimen/xsmall"
@@ -154,271 +152,282 @@
                 </RelativeLayout>
             </LinearLayout>
 
-            <!-- Library layout. -->
+            <!-- Now Playing layout. -->
+            <!-- Recently Played layout. -->
+
+            <TextView
+                style="@style/Title_Pages"
+                android:layout_marginTop="@dimen/xsmall"
+                android:layout_marginLeft="@dimen/xsmall"
+                android:layout_marginRight="@dimen/xsmall"
+                android:text="@string/playlist2"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/xsmall">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
                 android:background="@color/colorScrim"
-                android:layout_margin="@dimen/small"
-                android:orientation="vertical">
-
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="vertical"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/xsmall"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
-                    android:layout_margin="@dimen/xsmall">
+                    android:orientation="vertical"
+                    android:padding="@dimen/xsmall">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/music7" />
 
                     <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                    <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                        style="@style/DescriptionSection" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="vertical"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/xsmall"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
-                    android:layout_margin="@dimen/xsmall">
+                    android:orientation="vertical"
+                    android:padding="@dimen/xsmall">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/music7" />
 
                     <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                    <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                        style="@style/DescriptionSection" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
+                    android:padding="@dimen/xsmall"
                     android:layout_margin="@dimen/xsmall">
 
-                    <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/music7" />
 
                     <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                        style="@style/DescriptionSection" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
+                    android:padding="@dimen/xsmall"
                     android:layout_margin="@dimen/xsmall">
 
-                    <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/music7" />
 
                     <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                        style="@style/DescriptionSection" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
+                    android:padding="@dimen/xsmall"
                     android:layout_margin="@dimen/xsmall">
 
-                    <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/music7" />
 
                     <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                        style="@style/DescriptionSection"/>
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
+                    android:padding="@dimen/xsmall"
                     android:layout_margin="@dimen/xsmall">
 
-                    <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/music7" />
 
                     <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
+                        style="@style/DescriptionSection"/>
 
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="vertical"
-                    android:background="@color/colorBackground1"
-                    android:elevation="4dp"
-                    android:layout_margin="@dimen/xsmall">
-
-                    <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                    <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="vertical"
-                    android:background="@color/colorBackground1"
-                    android:elevation="4dp"
-                    android:layout_margin="@dimen/xsmall">
-
-                    <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                    <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="vertical"
-                    android:background="@color/colorBackground1"
-                    android:elevation="4dp"
-                    android:layout_margin="@dimen/xsmall">
-
-                    <TextView
-                        style="@style/Description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/song"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                    <TextView
-                        style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
-                        android:paddingTop="@dimen/xsmall"
-                        android:textColor="@color/colorBlack" />
-
-                </LinearLayout>
-
 
             </LinearLayout>
+            </HorizontalScrollView>
 
+            <!-- Favourites layout. -->
+
+            <TextView
+                style="@style/Title_Pages"
+                android:layout_marginTop="@dimen/xsmall"
+                android:layout_marginLeft="@dimen/xsmall"
+                android:layout_marginRight="@dimen/xsmall"
+                android:text="@string/activity_five"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/xsmall">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@color/colorScrim"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/xsmall"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/xsmall"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
 
         </LinearLayout>
 

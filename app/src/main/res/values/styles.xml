@@ -21,6 +21,18 @@
         <item name="android:paddingRight">@dimen/large</item>
     </style>
 
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/button_text_medium</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/xsmall</item>
+    </style>
+
     <style name="Title">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -36,12 +48,21 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/colorBackground</item>
         <item name="android:textSize">@dimen/title_large</item>
         <item name="android:typeface">normal</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:paddingTop">@dimen/small</item>
-        <item name="android:paddingBottom">@dimen/small</item>
-
+        <item name="android:padding">@dimen/small</item>
+    </style>
+    <style name="Title_Pages2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textSize">@dimen/button_text_medium</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/small</item>
     </style>
 
     <style name="LinearLayout">
@@ -83,6 +104,17 @@
         <item name="android:textSize">@dimen/button_text_medium</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+
+    </style>
+
+    <style name="DescriptionSection">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/caption_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/song</item>
         <item name="android:textStyle">bold</item>
         <item name="android:typeface">normal</item>
 
