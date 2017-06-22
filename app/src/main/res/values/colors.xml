@@ -10,8 +10,10 @@
     <color name="colorBackground">#EEEEEE</color>
     <color name="colorScrim">#3d000000</color>
 
+    <color name="colorBackground1">#f1f1f1</color>
+
 
     <color name="colorSection">#FAFF7F</color>
-    <color name="colorPlayer">#ff6b35</color>
+    <color name="colorAccent2">#ff6b35</color>
     <color name="colorExtra">#F4E76E</color>
 </resources>
