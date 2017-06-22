@@ -22,7 +22,6 @@ public class Home extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         // Add Fragments to adapter one by one
-        adapter.addFragment(new Mainscreen(), getString(R.string.activity_one));
         adapter.addFragment(new Library(), getString(R.string.activity_two));
         adapter.addFragment(new NowPlaying(), getString(R.string.activity_three));
         adapter.addFragment(new Playlist(), getString(R.string.activity_four));
@@ -40,7 +39,7 @@ public class Home extends AppCompatActivity {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
 
-        public ViewPagerAdapter(FragmentManager manager) {
+        private ViewPagerAdapter(FragmentManager manager) {
             super(manager);
         }
 
@@ -54,7 +53,7 @@ public class Home extends AppCompatActivity {
             return mFragmentList.size();
         }
 
-        public void addFragment(Fragment fragment, String title) {
+        private void addFragment(Fragment fragment, String title) {
             mFragmentList.add(fragment);
             mFragmentTitleList.add(title);
         }

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Muzica</string>
 
-    <string name="activity_one">Home</string>
+    <string name="activity_one">Sign-in</string>
     <string name="activity_two">Library</string>
     <string name="activity_three">Now Playing</string>
     <string name="activity_four">Playlist</string>
@@ -10,5 +10,6 @@
     <string name="Title">Muzica</string>
     <string name="Intro">The app for the music you love</string>
     <string name="button">Welcome</string>
-
+    <string name="song">Artist - Song Title</string>
+    <string name="album_name">Album Name</string>
 </resources>

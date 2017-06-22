@@ -22,20 +22,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/scrim" />
 
-        <TextView
-            android:id="@+id/welcome_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:gravity="center_horizontal"
-            android:padding="5dp"
-            android:textSize="42sp"
-            android:text="@string/Title"
-            android:textColor="@color/colorPrimary"
-            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/intro"
@@ -45,8 +31,8 @@
             android:layout_margin="@dimen/medium"
             android:elevation="@dimen/small"
             android:text="@string/Intro"
-            android:textColor="@color/colorText"
-            android:background="@color/colorExtra"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorBackground"
             android:layout_above="@+id/welcome"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
