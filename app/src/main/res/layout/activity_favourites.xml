@@ -168,6 +168,28 @@
                 android:layout_margin="@dimen/small"
                 android:orientation="vertical">
 
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/xsmall"
+                        android:layout_marginLeft="@dimen/xsmall"
+                        android:layout_marginRight="@dimen/xsmall"
+                        android:text="@string/music2"
+                        android:elevation="@dimen/medium"
+                        android:id="@+id/button" />
+
+                    <TextView
+                        style="@style/Title_Pages2"
+                        android:text="@string/Number"
+                        android:layout_marginRight="@dimen/xsmall"
+                        android:layout_marginTop="@dimen/medium"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="50dp"

@@ -156,6 +156,145 @@
                 </RelativeLayout>
             </LinearLayout>
 
+            <!-- Recently Played layout. -->
+
+            <TextView
+                style="@style/Title_Pages"
+                android:layout_marginTop="@dimen/xsmall"
+                android:layout_marginLeft="@dimen/xsmall"
+                android:layout_marginRight="@dimen/xsmall"
+                android:text="@string/playlist2"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/xsmall">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@color/colorScrim"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/xsmall"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/xsmall"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground1"
+                        android:elevation="4dp"
+                        android:padding="@dimen/xsmall"
+                        android:layout_margin="@dimen/xsmall">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/music7" />
+
+                        <TextView
+                            style="@style/DescriptionSection"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
             <!-- Library layout. -->
 
         <LinearLayout
@@ -186,6 +325,8 @@
                     android:layout_marginTop="@dimen/medium"
                     android:layout_alignParentRight="true" />
             </RelativeLayout>
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"
