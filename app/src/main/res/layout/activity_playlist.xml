@@ -276,7 +276,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/three"
+                        android:id="@+id/four"
                         style="@style/Description"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -306,7 +306,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/three"
+                        android:id="@+id/five"
                         style="@style/Description"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -336,7 +336,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/three"
+                        android:id="@+id/six"
                         style="@style/Description"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
