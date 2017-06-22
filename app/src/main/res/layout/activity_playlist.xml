@@ -20,41 +20,41 @@
             android:src="@drawable/music" />
 
         <LinearLayout
+            android:id="@+id/linearLayout1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/colorScrim"
-            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:id="@+id/linearLayout1">
+            android:layout_alignParentTop="true"
+            android:background="@color/colorScrim"
+            android:orientation="vertical">
 
             <TextView
+                style="@style/Title_Pages"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/small"
-                style="@style/Title_Pages"
-                android:background="@color/colorScrim"
                 android:layout_marginLeft="@dimen/xsmall"
                 android:layout_marginRight="@dimen/xsmall"
                 android:layout_marginTop="@dimen/xsmall"
-                android:textColor="@color/colorSection"
-                android:text="@string/activity_four"/>
+                android:background="@color/colorScrim"
+                android:paddingLeft="@dimen/small"
+                android:text="@string/activity_four"
+                android:textColor="@color/colorSection" />
             <!-- Now Playing layout. -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@color/colorBackground"
                 android:layout_margin="@dimen/small"
+                android:background="@color/colorBackground"
                 android:orientation="vertical">
 
                 <TextView
+                    style="@style/Title_Pages"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/small"
-                    style="@style/Title_Pages"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:text="@string/activity_three"/>
+                    android:text="@string/activity_three"
+                    android:textColor="@color/colorPrimaryDark" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -90,39 +90,39 @@
                         android:textColor="@color/colorPrimaryDark" />
 
                     <LinearLayout
+                        android:id="@+id/linearLayout2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="12dp"
-                        android:id="@+id/linearLayout2"
                         android:layout_alignBottom="@+id/album_image"
                         android:layout_alignLeft="@+id/album"
-                        android:layout_alignStart="@+id/album">
+                        android:layout_alignStart="@+id/album"
+                        android:layout_marginBottom="12dp"
+                        android:orientation="horizontal">
 
                         <ImageButton
                             android:id="@+id/imageButton"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/small"
                             android:background="@color/colorPrimary"
                             android:tint="@color/colorAccent"
-                            android:layout_marginRight="@dimen/small"
                             app:srcCompat="@android:drawable/ic_media_previous" />
 
                         <ImageButton
                             android:id="@+id/imageButton2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/small"
                             android:background="@color/colorPrimary"
                             android:tint="@color/colorAccent"
-                            android:layout_marginRight="@dimen/small"
                             app:srcCompat="@android:drawable/ic_media_play" />
 
                         <ImageButton
                             android:id="@+id/imageButton3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@color/colorPrimary"
                             android:layout_marginRight="@dimen/small"
+                            android:background="@color/colorPrimary"
                             android:tint="@color/colorAccent"
                             app:srcCompat="@android:drawable/ic_media_next" />
 
@@ -148,12 +148,12 @@
                         android:id="@+id/imageButton4"
                         android:layout_width="26dp"
                         android:layout_height="26dp"
-                        android:cropToPadding="false"
-                        android:tint="@color/colorPrimary"
-                        app:srcCompat="@android:drawable/btn_star"
+                        android:layout_alignEnd="@+id/linearLayout2"
                         android:layout_alignParentTop="true"
                         android:layout_alignRight="@+id/linearLayout2"
-                        android:layout_alignEnd="@+id/linearLayout2" />
+                        android:cropToPadding="false"
+                        android:tint="@color/colorPrimary"
+                        app:srcCompat="@android:drawable/btn_star" />
 
                 </RelativeLayout>
             </LinearLayout>
@@ -163,67 +163,200 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorScrim"
                 android:layout_margin="@dimen/small"
+                android:background="@color/colorScrim"
                 android:orientation="vertical">
 
+                <Button
+                    android:id="@+id/button"
+                    style="@style/Button"
+                    android:layout_marginLeft="@dimen/xsmall"
+                    android:layout_marginRight="@dimen/xsmall"
+                    android:layout_marginTop="@dimen/xsmall"
+                    android:elevation="@dimen/medium"
+                    android:text="@string/music1" />
 
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="vertical"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/xsmall"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
-                    android:layout_margin="@dimen/xsmall">
+                    android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/one"
                         style="@style/Description"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/song"
                         android:paddingLeft="@dimen/xsmall"
                         android:paddingTop="@dimen/xsmall"
+                        android:text="@string/playlist"
                         android:textColor="@color/colorBlack" />
 
                     <TextView
                         style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/xsmall"
                         android:paddingTop="@dimen/xsmall"
+                        android:text="@string/Number"
                         android:textColor="@color/colorBlack" />
 
-                </LinearLayout>
+                </RelativeLayout>
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="vertical"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/xsmall"
                     android:background="@color/colorBackground1"
                     android:elevation="4dp"
-                    android:layout_margin="@dimen/xsmall">
+                    android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/two"
                         style="@style/Description"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/song"
                         android:paddingLeft="@dimen/xsmall"
                         android:paddingTop="@dimen/xsmall"
+                        android:text="@string/playlist"
                         android:textColor="@color/colorBlack" />
 
                     <TextView
                         style="@style/DescriptionMini"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/album_name"
-                        android:paddingLeft="@dimen/xsmall"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/xsmall"
                         android:paddingTop="@dimen/xsmall"
+                        android:text="@string/Number"
                         android:textColor="@color/colorBlack" />
 
-                </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:background="@color/colorBackground1"
+                    android:elevation="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/three"
+                        style="@style/Description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/playlist"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        style="@style/DescriptionMini"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/Number"
+                        android:textColor="@color/colorBlack" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:background="@color/colorBackground1"
+                    android:elevation="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/three"
+                        style="@style/Description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/playlist"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        style="@style/DescriptionMini"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/Number"
+                        android:textColor="@color/colorBlack" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:background="@color/colorBackground1"
+                    android:elevation="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/three"
+                        style="@style/Description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/playlist"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        style="@style/DescriptionMini"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/Number"
+                        android:textColor="@color/colorBlack" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:background="@color/colorBackground1"
+                    android:elevation="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/three"
+                        style="@style/Description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/playlist"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        style="@style/DescriptionMini"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/xsmall"
+                        android:paddingTop="@dimen/xsmall"
+                        android:text="@string/Number"
+                        android:textColor="@color/colorBlack" />
+
+                </RelativeLayout>
+
             </LinearLayout>
 
 
