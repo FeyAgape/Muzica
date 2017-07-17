@@ -40,6 +40,14 @@
                 android:paddingLeft="@dimen/small"
                 android:text="@string/activity_four"
                 android:textColor="@color/colorSection" />
+
+            <TextView
+                style="@style/Title_Pages2"
+                android:layout_marginTop="@dimen/xsmall"
+                android:layout_marginLeft="@dimen/xsmall"
+                android:layout_marginRight="@dimen/xsmall"
+                android:text="@string/activity_four1"/>
+
             <!-- Now Playing layout. -->
             <LinearLayout
                 android:layout_width="match_parent"

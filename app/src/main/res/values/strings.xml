@@ -3,9 +3,18 @@
 
     <string name="activity_one">Sign-in</string>
     <string name="activity_two">Library</string>
+    <string name="activity_two1">Library, will use the MediaPlayer and AudioManager class to enable media play.
+        Recently played and the lists of track will all be populated using a Custom ArrayAdapter, which will show the song
+        image, artist name and song title of media files available on the device.</string>
     <string name="activity_three">Now Playing</string>
+    <string name="activity_three1">Now Playing, will use the MediaPlayer and AudioManager class to enable media play.
+        Recently added, recently played and favourites will all be populated using a Custom ArrayAdapter, which will all show the song image, artist name and song title</string>
     <string name="activity_four">Playlists</string>
+    <string name="activity_four1">Playlists, will use the MediaPlayer and AudioManager class to enable media play.</string>
     <string name="activity_five">Favourites</string>
+    <string name="activity_five1">Favourites, will use the MediaPlayer and AudioManager class to enable media play.
+       Favourite lists of track will all be populated using a Custom ArrayAdapter, which will show the artist name,
+        song title, and album name of media file that has been marked as favourites.</string>
     <string name="content_description">image</string>
     <string name="Title">Muzica</string>
     <string name="Intro">The app for the music you love</string>

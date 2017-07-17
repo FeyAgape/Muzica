@@ -30,7 +30,7 @@
         <activity android:name=".Playlist" />
         <activity android:name=".Favourites" />
         <activity android:name=".NowPlaying"/>
-        <activity android:name=".Mainscreen" />
+
     </application>
 
 </manifest>
