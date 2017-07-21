@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         // Show the content of the home activity screen
         setContentView(R.layout.activity_main);
 
+
         // Takes you to home when the welcome button is clicked
         Button welcome = (Button) findViewById(R.id.welcome);
 
