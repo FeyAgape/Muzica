@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.muzica.NowPlaying">
+    tools:context="com.example.android.muzica.Playing">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -29,6 +29,27 @@
             android:layout_alignParentStart="true"
             android:id="@+id/linearLayout1">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/library" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/playlist_name" />
+
+            </LinearLayout>
+
             <TextView
 
                 style="@style/Title_Pages"
@@ -37,14 +58,14 @@
                 android:layout_marginLeft="@dimen/xsmall"
                 android:layout_marginRight="@dimen/xsmall"
                 android:textColor="@color/colorSection"
-                android:text="@string/activity_three"/>
+                android:text="@string/playing"/>
 
             <TextView
             style="@style/Title_Pages2"
             android:layout_marginTop="@dimen/xsmall"
             android:layout_marginLeft="@dimen/xsmall"
             android:layout_marginRight="@dimen/xsmall"
-            android:text="@string/activity_three1"/>
+            android:text="@string/playing1"/>
 
             <!-- Now Playing layout. -->
             <LinearLayout

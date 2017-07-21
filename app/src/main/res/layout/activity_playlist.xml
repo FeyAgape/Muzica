@@ -29,6 +29,27 @@
             android:background="@color/colorScrim"
             android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/library" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/playing" />
+
+            </LinearLayout>
+
             <TextView
                 style="@style/Title_Pages"
                 android:layout_width="match_parent"
@@ -38,7 +59,7 @@
                 android:layout_marginTop="@dimen/xsmall"
                 android:background="@color/colorScrim"
                 android:paddingLeft="@dimen/small"
-                android:text="@string/activity_four"
+                android:text="@string/playlist_name"
                 android:textColor="@color/colorSection" />
 
             <TextView
@@ -46,7 +67,7 @@
                 android:layout_marginTop="@dimen/xsmall"
                 android:layout_marginLeft="@dimen/xsmall"
                 android:layout_marginRight="@dimen/xsmall"
-                android:text="@string/activity_four1"/>
+                android:text="@string/playlista1"/>
 
             <!-- Now Playing layout. -->
             <LinearLayout
@@ -61,7 +82,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/small"
-                    android:text="@string/activity_three"
+                    android:text="@string/playing"
                     android:textColor="@color/colorPrimaryDark" />
 
                 <RelativeLayout
