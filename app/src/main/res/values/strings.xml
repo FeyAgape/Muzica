@@ -1,22 +1,25 @@
 <resources>
     <string name="app_name">Muzica</string>
     <string name="home">Home</string>
-    <string name="home1">The app will use the MediaPlayer API: The framework includes support for playing variety of common media types,
+    <string name="home2">The app will use the MediaPlayer API: The framework includes support for playing variety of common media types,
         so that you can easily integrate audio, video and images into your applications. One of the most important components
         of the media framework is the MediaPlayer class. An object of this class can fetch, decode, and play both audio and
         video with minimal setup. It supports audio or video from media files stored in the application\'s resources
         (raw resources), from standalone files in the filesystem, or from a data stream arriving over a network connection.
         While the AudioManager class manages audio sources and audio output on a device</string>
-    <string name="library">Library</string>
+    <string name="home3">Android Pay API: Collecting payment information through Android Pay, it is available to users and customers in the U.S., Australia, Hong Kong, Singapore, and the U.K. You can use it to access payment information stored in your customers\' Google accounts. \n
+To set up your app, you’ll first need to obtain credentials and a client ID for it. You will also need to set up the latest version of Google Play Services, version 8.4 or higher, and also enable the Android Pay API by adding  a permission tag in the AndroidManifest.xml file. </string>
+    <string name="library">LIBRARY \n \n</string>
     <string name="library1">Library, will use the MediaPlayer and AudioManager class to enable media play.
         Recently played and the lists of track will all be populated using a Custom ArrayAdapter, which will show the song
         image, artist name and song title of media files available on the device.</string>
-    <string name="playing">Playing</string>
+    <string name="playing">PLAYING \n \n </string>
+    <string name="home1">PAYMENT ACTIVITY \n \n</string>
     <string name="playing1">Now Playing, will use the MediaPlayer and AudioManager class to enable media play.
         Recently added, recently played and favourites will all be populated using a Custom ArrayAdapter, which will all show the song image, artist name and song title</string>
-    <string name="playlist_name">Playlists</string>
+    <string name="playlist_name">PLAYLISTS \n \n</string>
     <string name="playlista1">Playlists, will use the MediaPlayer and AudioManager class to enable media play.</string>
-    <string name="activity_five">Favourites</string>
+    <string name="activity_five">FAVOURITES</string>
     <string name="content_description">image</string>
     <string name="Title">Muzica</string>
     <string name="Intro">The app for the music you love</string>

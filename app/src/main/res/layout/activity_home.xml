@@ -41,15 +41,35 @@
     </LinearLayout>
 
         <TextView
+            style="@style/Title_Pages"
+            android:layout_marginLeft="@dimen/xsmall"
+            android:layout_marginRight="@dimen/xsmall"
+            android:layout_marginTop="@dimen/xsmall"
+            android:background="@color/colorScrim"
+            android:text="@string/home1"
+            android:textColor="@color/colorSection" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/medium"
             android:layout_margin="@dimen/medium"
             android:background="@color/colorAccent"
-            android:textStyle="bold"
-            android:textSize="@dimen/heading_body_regular"
+            android:padding="@dimen/medium"
+            android:text="@string/home3"
             android:textColor="@color/colorBlack"
-            android:text="@string/home1"/>
+            android:textSize="@dimen/heading_body_regular"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/medium"
+            android:text="@string/home2"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/heading_body_regular"
+            android:textStyle="bold" />
     </LinearLayout>
 
     </ScrollView>
